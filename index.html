@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scope=1.0">
+  <title>Spotify Web Thingy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="access-code-container">
+    <input type="text" id="access-code" placeholder="Access Token Goes Here!">
+    <button id="submit-code">Submit!</button>
+  </div>
+
+  <div class="player-container">
+    <div class="now-playing">
+      <img id="album-art" src="" alt="Album Art">
+      <div class="song-info">
+        <h2>Song Title</h2>
+        <h3>Artist Name</h3>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="control-button" id="prev-button">&#8592;</button>
+      <button class="control-button" id="play-button">&#9654;</button>
+      <button class="control-button" id="skip-button">&#8594;</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
