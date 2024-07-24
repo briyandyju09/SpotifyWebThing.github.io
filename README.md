@@ -33,3 +33,8 @@ Woah Woah! Chill out cuz getting your token is as easy as this!;
     
 -   **Find Your Client Secret:** You'll also need a Client Secret, which acts like a password for your app but since you wont be using this app for personal projects this wont matter as much! Click on the link that says "Show Client Secret". A pop-up will appear displaying the code. Copy this Client Secret and store it securely.
 - **Getting Your Token:** Now insert this Client ID and Secret into this website: https://alecchen.dev/spotify-refresh-token and select all scopes to ensure you dont leave out any important requirements. Then after submitting be sure to copy the Access Token and not the Refresh Token.
+
+**MAAANN I'm too lazy to do allat, Just give me a demo token for now:** Uhhh sure? Go ahead with my Client details!
+Client ID 7aef81b1c6444e75a8640c7be9040c76
+Client Secret c4a26c6cdfbe4874835bd01b04f05771
+
