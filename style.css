@@ -1,0 +1,95 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #222; /* Black-greyish tint for background */
+  display: flex; /* Center content vertically */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+.access-code-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#access-code {
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 10px; /* Add some space between the input and button */
+}
+
+#submit-code {
+  background-color: #343736;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Adjust padding for better alignment */
+  font-size: 16px;
+  cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.player-container { /* More descriptive class name */
+  background-color: #111; /* Darker shaded box */
+  border-radius: 10px; /* Rounded corners for a more polished look */
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align elements to the left */
+  width: 300px; /* Set a fixed width for better layout control */
+}
+
+.now-playing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;  /* Take up full width within the container */
+}
+
+.now-playing img {
+  width: 60px;
+  height: 60px; /* Adjusted size for better proportions */
+  margin-right: 15px;
+  border-radius: 5px; /* Rounded corners for album art */
+}
+
+.song-info {
+  color: white;
+}
+
+.song-info h2 {
+  margin-bottom: 5px;
+  font-size: 1.2em; /* Slightly larger text for improved readability */
+}
+
+.song-info h3 {
+  font-size: 1em;
+  margin: 0; /* Remove default margin for cleaner spacing */
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between; /* Distribute buttons evenly */
+  width: 100%; /* Take up full width within the container */
+}
+
+.control-button {
+  cursor: pointer;
+  color: white;
+  font-size: 20px; /* Adjusted size for better button text visibility */
+  padding: 10px 20px; /* Increased padding for better button feel */
+  border: none; /* Remove default border for a cleaner look */
+  border-radius: 5px; /* Rounded corners for buttons */
+  background-color: #424242; /* Darker button background for better contrast */
+  transition: background-color 0.2s ease; /* Smoother hover effect */
+}
+
+.control-button:hover {
+  background-color: #333; /* Slightly lighter background on hover */
+}
